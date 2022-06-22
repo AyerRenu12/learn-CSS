@@ -1,0 +1,21 @@
+/* external css */
+body {
+    background-color:darkgray;
+}
+h1 {
+    color: aqua;
+    background-color: black;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color:brown;
+    background-color: cornsilk;
+    font-size: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+p {
+    font-size: 30px;
+}

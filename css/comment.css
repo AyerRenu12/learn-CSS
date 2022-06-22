@@ -1,0 +1,17 @@
+/* heading */
+h2 {
+    font-size: 40px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: bisque;
+    
+}
+/* paragraph */
+p{
+    color: black;
+    background-color: bisque;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
