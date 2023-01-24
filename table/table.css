@@ -1,0 +1,33 @@
+ table ,td, th {
+    
+    border-collapse: collapse;
+
+    
+}
+.wrapper {
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+table {
+    margin-top: 100px;
+    width: 100%;
+     border-bottom: 5px solid green;
+    box-shadow: 0px 0px 10px gray;
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding:  20px 0;
+}
+ th {
+    padding: 20px 0px;
+    vertical-align: bottom;
+    background-color: green;
+    color: antiquewhite;
+    text-align: center;
+ }
+    tr:nth-child(odd){
+    color: green;
+    background-color: antiquewhite;
+}
