@@ -1,0 +1,27 @@
+.container {
+    background-color: cadetblue;
+    padding: 30px;
+    
+}
+.item {
+    height: 150px;
+    width: 400px;
+    
+
+    
+}
+.item-one {
+background-color:#B8FFF9 ;
+
+}
+.item-two {
+    background-color: #85ff8f;
+}
+.item-three {
+    float: right;
+    background-color:#FFE61B;
+}
+.item-four {
+    clear: both;
+    background-color: #D18CE0;
+}
