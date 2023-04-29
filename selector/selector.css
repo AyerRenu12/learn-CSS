@@ -1,0 +1,28 @@
+/* element selector */
+h2 {
+    color: red;
+}
+/* class selector */
+.one {
+    color: blue;
+    font-size: 30px;
+}
+/* id selector */
+#two {
+    color: aquamarine;
+    background-color: black;
+    text-align: center;
+}
+/* group selector */
+h2, footer {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+}
+.three .comment {
+    color: black;
+    background-color: blanchedalmond;
+    font-size: 30px;
+    padding: 20px;
+    border: 5px solid green ;
+}
