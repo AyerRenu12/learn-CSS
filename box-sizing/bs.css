@@ -1,0 +1,17 @@
+.container {
+    border: 5px solid black;
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+   
+}
+.container-two {
+    border: 5px solid black;
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: aquamarine;
+}
