@@ -1,0 +1,41 @@
+.container {
+    border: 3px solid black ;
+    height: 2000px;
+}
+.box {
+    border: 5px solid rgb(223, 9, 9);
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+/* static position is not affected bye left, right ,top , down properties
+by default html elements are static positioned  */
+#box-one {
+    position: static;
+}
+/* relative : relative to its postion and leave a gap at its normal position */
+#box-two {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+/* position absolute relative to its first parent
+ i.e. relative to the body or div  */
+#box-three{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+/* positiion fixed position the element with the browser window  */
+#box-four{
+    position: fixed;
+    top: 40px;
+    right: 30px;
+
+}
+#box-five{
+    position: sticky;
+    top: 40px;
+    left: 30px;
+
+}
