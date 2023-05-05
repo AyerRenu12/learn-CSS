@@ -1,0 +1,62 @@
+.container {
+    border: 3px solid gray;
+    height: 500px;
+    width: 400px;
+   
+}
+
+/* display none */
+.container h1{
+    /* display: none; */
+}
+/* display inlie */
+.container li {
+    border: 2px solid black;
+    margin: 2px;
+    display: inline;
+}
+/* display block */
+.container span {
+    border: 2px solid red;
+    padding: 5px;
+    display: block;
+    width: 100px;
+    margin: 4px;
+    width: 200px;
+
+}
+.container a {
+    border: 2px solid blue;
+    width: 80px;
+    margin: 7px;
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+}
+/* display inline-block */
+#inline {
+    border: 3px solid yellow;
+    margin: 10px;
+}
+#inline span {
+    border: 3px solid red;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+}
+/* display list-item  */
+#list  {
+    border: 2px solid black;
+    margin: 10px;
+    width: 200px;
+}
+#list span {
+    border: 3px solid red ;
+    margin: 20px;
+    display: list-item;
+    width: 100px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 20px;
+}
