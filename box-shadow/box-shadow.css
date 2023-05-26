@@ -1,0 +1,80 @@
+.container {
+   background-color: darkcyan;
+    /* margin: auto; */
+    margin-top: 50px;
+    box-sizing: border-box; 
+    margin-right: 20px;
+    height: 500px;
+}
+.cards {
+display: flex;
+
+}
+
+.card h2 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.card p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.card {
+padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 5px red;
+    /* height: 300px;
+    width: 400px; */
+    margin: 15px;
+     background-color: antiquewhite;
+}
+#card1{
+    
+     /* sharp shadow  */
+     box-shadow: 2px 3px 0px 4px black;
+
+}
+#card2{
+   
+     /* 3px blur and 4px spread */
+     box-shadow: 6px 6px 3px 4px gray;
+
+
+}
+#card3{
+    /* minus value */
+     /* top left shadow */
+     box-shadow: -3px 4px 10px  blue;
+
+     
+}
+#card4{
+    /* top right shadow */
+     box-shadow: 4px -4px 15px yellow;
+
+}
+#card5 {
+    /* multiple shadows */
+    box-shadow: 4px 4px 10px  4px green , 10px 13px 15px 8px orange , 20px 25px 15px 10px blue; 
+}
+#card6{
+    /* inside shadow */
+     box-shadow: 4px 4px 15px gold inset;
+     
+
+}
+.card button {
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 70px;
+}
+.card button:hover {
+    color: red;
+    background-color: white;
+    
+}
