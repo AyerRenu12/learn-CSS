@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-decoration: underline;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+.container1{
+    border: 5px solid red;
+    display: flex;
+    padding: 10px;
+     background-color: darkcyan;
+     height: 300px;
+     width: 800px;
+     margin: auto;
+     align-items: flex-start;
+
+}
+.container2{
+    border: 5px solid red;
+    display: flex;
+    padding: 10px;
+     background-color: aqua;
+     height: 300px;
+     width: 800px;
+     margin: auto;
+     align-items: flex-end;
+}
+.container3{
+    background-color: chartreuse;
+   border: 5px solid red;
+    display: flex;
+    padding: 10px;
+     height: 300px;
+     width: 800px;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+}
+.container4{
+    border: 5px solid red;
+    display: flex;
+    padding: 10px;
+    height: 300px;
+     width: 800px;
+     margin: auto;
+     align-items: stretch;
+     background-color: mediumspringgreen;
+}
+.container5{
+    border: 5px solid red;
+    display: flex;
+    padding: 10px;
+    height: 300px;
+     width: 800px;
+     margin: auto;
+     align-items: baseline;
+     background-color: green;
+}
+
+
+
+.items{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 90px;
+    text-align: center;
+    
+   
+}
+#item1{
+    background-color: chocolate;
+    
+
+}
+#item2{
+    background-color:pink;
+}
+#item3{
+    background-color: blueviolet;
+}
+#item4{
+    background-color: deeppink;
+}
+#item5{
+    background-color: brown;
+  font-size: 30px;
+}

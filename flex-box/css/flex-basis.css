@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+    font-size: 30px;
+   text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    border: 2px solid black ;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 300px; */
+    background-color: blanchedalmond;
+}
+.items{
+    border: 2px solid black;
+    padding: 10px;
+    /* margin: 10px; */
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+
+}
+#item1{
+    flex-basis: 200px;
+}
